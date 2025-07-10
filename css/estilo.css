@@ -5,7 +5,7 @@
 }
 header{
     width: 100%;
-    
+   
     display: flex;
 }
 #logo{
@@ -16,8 +16,12 @@ header{
 img{
     border-radius: 50px;
     margin-right: 20px;
+    margin-left: 65px;
+    height: 90%;
+    width: 70%;
 }
 #banner{
+    height: 90%;
     width: 70%;
     background-color: plum;
     display: flex;
@@ -33,51 +37,112 @@ img{
 ul{
     display: flex;
     list-style: none;
-    width: 100%; 
+    width: 100%;
     justify-content: center;
 }
-li{
-    background-color: antiquewhite;
-    border-radius: 50px;
-    height: 25%;
-    width: 25%;
-    text-align: center;
+.sobre{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dbe5a2;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-ul li {
-    margin: 20px;
+
+.sobre:hover{
+  background-color: #c24329;
+}
+.adocao{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dbe5a2;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.adocao:hover{
+    background-color: #c24329;
+}
+.contato{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dbe5a2;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.contato:hover{
+    background-color: #c24329;
 }
 
-.linha a:hover{
 
-}
-
-#quatro {
+#quatro{
     width: 90%;
     height: 19vh;
     background-color: aqua;
     border-radius: 30px;
     margin-top: 10px;
 }
-#dois {
+#quatro p{
+    margin-left: 5%;
+}
+#dois{
     width: 64%;
     height: 60vh;
     background-color: darkorchid;
     border-radius: 30px;
     margin-top: 10px;
 }
-#tres {
+#tres{
     width: 24%;
     height: 60vh;
     background-color: darkslateblue;
     border-radius: 30px;
     margin-top: 10px;
     margin-left: 10px;
+    background-image: url("https://www.totalquimicaoficial.com.br/uploads/images/2016/09/gato-cao-amigos.gif");  
+    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
 }
-body {
+
+
+body{
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+body h1{
+    margin-left: 30%;
+    color: red;
+}
+
+
+header h1{
+    margin-right: 20%;
+    margin-left: 20%;
+    align-self: center;
+    color: yellow;
+}
+.index{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #dbe5a2;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.index:hover{
+    background-color: #c24329;
 }
